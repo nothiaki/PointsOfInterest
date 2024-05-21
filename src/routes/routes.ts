@@ -3,6 +3,6 @@ import * as controller from '../controller/index';
 
 const router = express.Router();
 
-router.get('/poi', controller.create);
+router.post('/', controller.create);
 
 export default router;
