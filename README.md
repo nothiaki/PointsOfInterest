@@ -50,11 +50,12 @@ PORT={PORT}
 
 <h3>Starting</h3>
 
-How to start your project
+In your terminal type the following commands
 
 ```bash
 cd PointsOfInterest/
 npm i
+npx prisma db push
 npm run dev
 ```
 
