@@ -62,10 +62,10 @@ npm run dev
 
 Here you can list the main routes of your API, and what are their expected request bodies.
 
-| route                              | description
-| <kbd>GET /</kbd>        | return list of all POI's in database [details](#get-root)
-| <kbd>POST /</kbd>     | create a new POI [details](#post-root)
-| <kbd>POST /search</kbd>     | search the POI's in specified range [details](#post-search)
+| route                   | description<br>
+| <kbd>GET /</kbd>        | return list of all POI's in database [details](#get-root)<br>
+| <kbd>POST /</kbd>       | create a new POI [details](#post-root)<br>
+| <kbd>POST /search</kbd> | search the POI's in specified range [details](#post-search)
 
 <h3 id="get-root">GET /</h3>
 
